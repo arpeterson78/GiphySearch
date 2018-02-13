@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ShowCase</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3"><span class="glyphicon glyphicon-film"></span>ShowCase</h1>
+            <p class="lead">Just puttin' on a show.</p>
+        </div>
+    </div>
+    <div id="container">
+        <div class="panel panel-default show-panel">
+            <div class="panel-heading">Show Choices</div>
+            <div class="panel-body">
+                <div id="show-buttons">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="panel panel-default search-engine">
+                    <div class="panel-heading">Add a Show!</div>
+                    <div class="panel-body">
+                        <form id="show-form">
+                            <label for="show-input">Search: </label>
+                            <input type="text" id="show-input">
+                            <br>
+
+                            <input id="add-show" type="submit" value="Submit" class="btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="panel panel-default gifpanel">
+                    <div class="panel-heading">Gifs</div>
+                    <div class="panel-body">
+                        <div id="shows">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>

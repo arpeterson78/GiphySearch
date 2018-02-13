@@ -1,0 +1,88 @@
+.jumbotron {
+    border-radius: 20px;
+    background-color: rgb(42, 57, 78);
+    opacity: 0.8;
+    color: white;
+    box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+    border: 1px solid rgb(100, 99, 99);;
+    
+     
+    }
+
+.display-3, .lead {
+    text-align: center;
+}
+
+.panel {
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+    
+}
+
+.lead {
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 240px;
+    color: rgb(88, 206, 245);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+
+}
+
+.display-3 {
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    
+
+}
+
+.btn {
+    background-color: lightblue;
+    color: white;
+    
+    font-weight: bold;
+    margin: 10px 10px 0px 0;
+}
+
+body {
+    margin: 0 140px;
+    background: #feffff;
+    background: -moz-linear-gradient(-45deg, #feffff 0%, #d2ebf9 100%);
+    background: -webkit-linear-gradient(-45deg, #feffff 0%,#d2ebf9 100%);
+    background: linear-gradient(135deg, #feffff 0%,#d2ebf9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#d2ebf9',GradientType=1 );   
+    
+    
+    
+}
+
+
+
+.panel-default .panel-heading {
+    font-family: 'Righteous', cursive;
+    background-color: rgb(42, 57, 78);
+    opacity: 0.8;
+    color: white;
+    
+}
+
+
+
+
+button {
+    display: inline-block;
+    float: left;
+
+}
+
+.glyphicon-film {
+    margin-right: 15px;
+}
+
+/* question 1:
+why do the margins change? */
+
+/*question 2:
+why is my give pause and go bugged?  */
+
+
